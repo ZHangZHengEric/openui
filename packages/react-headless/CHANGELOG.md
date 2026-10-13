@@ -1,5 +1,11 @@
 # @openuidev/react-headless
 
+## 0.18.1
+
+### Patch Changes
+
+- [#1327](https://github.com/thesysdev/openui/pull/1327) [`86da07f`](https://github.com/thesysdev/openui/commit/86da07f6266887ff819cd5a8e295c75b2edc8251) Thanks [@shubham-thesys](https://github.com/shubham-thesys)! - Publish a tool call before its result: `processStreamedMessage` flushes the pending assistant update before a tool result arrives, so a server-side tool's result never shows up ahead of (or without) its call.
+
 ## 0.18.0
 
 No changes in this release.

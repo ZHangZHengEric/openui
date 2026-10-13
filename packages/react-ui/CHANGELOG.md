@@ -1,5 +1,13 @@
 # @openuidev/react-ui
 
+## 0.18.1
+
+### Patch Changes
+
+- [#1327](https://github.com/thesysdev/openui/pull/1327) [`86da07f`](https://github.com/thesysdev/openui/commit/86da07f6266887ff819cd5a8e295c75b2edc8251) Thanks [@shubham-thesys](https://github.com/shubham-thesys)! - Refresh the AgentInterface shell: a collapsed sidebar rail with a History menu and a draggable, remembered width; a pill composer and a shared ~72ch reading column; a centred welcome screen with starter tabs and a `card` starter variant; `AgentInterface.ThreadHeader` gains `start` / `center` / `end` slots, the chat title and a Rename/Delete menu; a Rename option in the thread menu; a shared menu style for Select, ModelSwitcher and dropdowns; a mascot loader in place of the dot-matrix loader; an exported `WelcomeMascot` (blinks, follows the cursor, squishes on click); an `AgentInterface.SidebarFooter` slot with `AgentInterface.ThemeModeToggle`, backed by the new `useThemeModePreference` hook; a redesigned tool call timeline with animated tool glyphs, plain-language labels (`toolLabel`, `ToolLabelsProvider`) and a live "Working" row; `defaultLabel` is deprecated in favour of `toolLabel`; and server-rendering support: the saved sidebar and theme preferences are restored just after hydration, before paint, with the interface's contents hidden until then so the first visible frame is already correct.
+- Updated dependencies [[`86da07f`](https://github.com/thesysdev/openui/commit/86da07f6266887ff819cd5a8e295c75b2edc8251)]:
+  - @openuidev/react-headless@0.18.1
+
 ## 0.18.0
 
 ### Minor Changes
